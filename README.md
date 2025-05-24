@@ -1,4 +1,4 @@
-# MovieApp
+# MovieApp[MASVS-Recommandation]
 
 Une application Android moderne pour la découverte et la gestion de films, avec des fonctionnalités de sécurité avancées.
 
