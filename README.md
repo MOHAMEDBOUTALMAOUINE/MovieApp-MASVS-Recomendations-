@@ -90,6 +90,8 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 👥 Auteurs
 
 - BOUTALMAOUINE Mohamed - *Développement initial* - [Votre GitHub](https://github.com/MOHAMEDBOUTALMAOUINE)
+- - BOUTALMAOUINE Mohamed - *Développement initial* - [Votre GitHub](https://github.com/MOHAMEDBOUTALMAOUINE)
+  - - BOUTALMAOUINE Mohamed - *Développement initial* - [Votre GitHub](https://github.com/MOHAMEDBOUTALMAOUINE)
 
 ## 🙏 Remerciements
 
