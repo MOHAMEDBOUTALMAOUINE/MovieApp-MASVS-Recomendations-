@@ -90,9 +90,8 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 👥 Auteurs
 
 - BOUTALMAOUINE Mohamed - *Développement initial* - [Votre GitHub](https://github.com/MOHAMEDBOUTALMAOUINE)
-- - BOUTALMAOUINE Mohamed - *Développement initial* - [Votre GitHub](https://github.com/MOHAMEDBOUTALMAOUINE)
-  - - BOUTALMAOUINE Mohamed - *Développement initial* - [Votre GitHub](https://github.com/MOHAMEDBOUTALMAOUINE)
-
+- EL QASIMY Soufiane  - *Développement initial* - [Votre GitHub](https://github.com/MOHAMEDBOUTALMAOUINE)
+- FATHI Hajar  - *Développement initial* - [Votre GitHub](https://github.com/MOHAMEDBOUTALMAOUINE)
 ## 🙏 Remerciements
 
 - [The Movie Database API](https://www.themoviedb.org/documentation/api) pour l'API de films
