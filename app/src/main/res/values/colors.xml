@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Couleurs système requises -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Palette de couleurs cinématographique -->
+    <color name="primary_dark">#1A1A1A</color>
+    <color name="primary">#212121</color>
+    <color name="primary_light">#FFFFFF</color>
+    <color name="accent">#FFFFFF</color>
+    <color name="accent_light">#FFFFFF</color>
+    <color name="gold">#FFD700</color>
+
+    <!-- Couleurs pour le thème clair -->
+    <color name="background_light">#FFFFFFFF</color>
+    <color name="text_primary_light">#DE000000</color>
+    <color name="text_secondary_light">#99000000</color>
+    <color name="card_background_light">#FFFFFFFF</color>
+    <color name="surface_light">#FFFFFF</color>
+
+    <!-- Couleurs pour le thème sombre -->
+    <color name="background_dark">#FF121212</color>
+    <color name="text_primary_dark">#FFFFFFFF</color>
+    <color name="text_secondary_dark">#B3FFFFFF</color>
+    <color name="card_background_dark">#FF1E1E1E</color>
+    <color name="surface_dark">#121212</color>
+    
+    <!-- Couleurs pour la barre de recherche -->
+    <color name="search_background_light">#FFFFFF</color>
+    <color name="search_background_dark">#2A2A2A</color>
+    <color name="search_text_light">@color/text_primary_light</color>
+    <color name="search_text_dark">@color/text_primary_dark</color>
+    <color name="search_hint_light">#757575</color>
+    <color name="search_hint_dark">#9E9E9E</color>
+
+    <!-- Couleurs pour les chips -->
+    <color name="chip_background_selected">#FFFFFF</color>
+    <color name="chip_background_unselected_light">#FFFFFF</color>
+    <color name="chip_background_unselected_dark">#424242</color>
+    <color name="chip_text_selected">@color/text_primary_light</color>
+    <color name="chip_text_unselected_light">@color/text_primary_light</color>
+    <color name="chip_text_unselected_dark">@color/text_secondary_dark</color>
+</resources>

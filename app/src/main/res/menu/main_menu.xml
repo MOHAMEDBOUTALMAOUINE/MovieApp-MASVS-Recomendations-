@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    
+    <item
+        android:id="@+id/action_search"
+        android:title="Rechercher"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always" />
+        
+    <item
+        android:id="@+id/action_toggle_theme"
+        android:title="Thème"
+        android:icon="@drawable/ic_theme_switch"
+        app:showAsAction="always" />
+        
+    <item
+        android:id="@+id/action_planning"
+        android:title="Mon Planning"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="always" />
+        
+    <item
+        android:id="@+id/action_favorites"
+        android:title="Mes Favoris"
+        android:icon="@drawable/ic_favorite"
+        app:showAsAction="always" />
+        
+</menu> 

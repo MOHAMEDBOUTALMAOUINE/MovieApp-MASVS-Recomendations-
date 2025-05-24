@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="?attr/colorSurface">
+
+    <!-- En-tête du dialogue -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:background="?attr/colorPrimary">
+
+        <ImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_movie"
+            android:tint="?attr/colorOnPrimary"
+            android:layout_marginEnd="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sélectionner un genre"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorOnPrimary" />
+
+    </LinearLayout>
+
+    <!-- Liste des genres -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/genresRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="400dp"
+        android:clipToPadding="false"
+        android:padding="8dp" />
+
+    <!-- Bouton de fermeture -->
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Fermer"
+        android:textColor="?attr/colorOnSurface"
+        android:backgroundTint="?attr/colorSurface"
+        app:cornerRadius="8dp"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton" />
+
+</LinearLayout> 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MovieApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/text_primary_dark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorSecondaryVariant">@color/black</item>
+        <item name="colorOnSecondary">@color/text_primary_dark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        
+        <!-- Surface and background colors -->
+        <item name="colorSurface">@color/black</item>
+        <item name="colorOnSurface">@color/text_primary_dark</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:colorBackgroundFloating">@color/black</item>
+        <item name="android:windowBackground">@color/black</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_primary_dark</item>
+        <item name="android:textColorSecondary">@color/text_secondary_dark</item>
+        
+        <!-- SearchView styles -->
+        <item name="android:editTextColor">@color/search_text_dark</item>
+        <item name="android:textColorHint">@color/search_hint_dark</item>
+        <item name="searchViewStyle">@style/SearchViewStyle.Dark</item>
+
+        <!-- Card style -->
+        <item name="materialCardViewStyle">@style/CustomCardView.Dark</item>
+    </style>
+
+    <!-- Style personnalisé pour SearchView en mode sombre -->
+    <style name="SearchViewStyle.Dark" parent="Widget.AppCompat.SearchView">
+        <item name="android:background">@color/black</item>
+        <item name="queryBackground">@android:color/transparent</item>
+        <item name="submitBackground">@android:color/transparent</item>
+        <item name="closeIcon">@drawable/ic_clear</item>
+        <item name="searchIcon">@drawable/ic_search</item>
+        <item name="queryHint">Rechercher un film...</item>
+        <item name="android:textColorHint">@color/search_hint_dark</item>
+    </style>
+
+    <!-- Style personnalisé pour les cartes en mode sombre -->
+    <style name="CustomCardView.Dark" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/black</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="contentPadding">0dp</item>
+        <item name="rippleColor">@color/accent_light</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <!-- Style personnalisé pour les Chips en mode sombre -->
+    <style name="CustomChipStyle.Dark" parent="Widget.MaterialComponents.Chip.Choice">
+        <item name="chipBackgroundColor">@color/black</item>
+        <item name="android:textColor">@color/text_primary_dark</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="chipMinHeight">36dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="chipCornerRadius">18dp</item>
+        <item name="rippleColor">@color/accent_light</item>
+        <item name="checkedIconVisible">false</item>
+    </style>
+</resources>
