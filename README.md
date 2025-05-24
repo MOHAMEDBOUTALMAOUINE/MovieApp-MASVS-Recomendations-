@@ -54,7 +54,7 @@ L'application implémente plusieurs mesures de sécurité :
 
 1. Clonez le repository :
 ```bash
-git clone https://github.com/votre-username/movieapp.git
+git clone https://github.com/MOHAMEDBOUTALMAOUINE/MovieApp-MASVS-Recomendations-.git
 ```
 
 2. Ouvrez le projet dans Android Studio
