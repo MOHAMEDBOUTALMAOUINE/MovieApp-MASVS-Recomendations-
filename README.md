@@ -90,8 +90,7 @@ Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
 ## 👥 Auteurs
 
 - BOUTALMAOUINE Mohamed - *Responsable Qualité & Sécurité de l’application* - [Votre GitHub](https://github.com/MOHAMEDBOUTALMAOUINE)
-- EL QASIMY Soufiane  - *Responsable Frontend Mobile & UX/UI* - [Votre GitHub]()
-- FATHI Hajar  - *Développement initial && Backend* - [Votre GitHub]()
+- EL QASIMY Soufiane  - *Responsable Frontend Mobile & backend* - [Votre GitHub]()
 ## 🙏 Remerciements
 
 - [The Movie Database API](https://www.themoviedb.org/documentation/api) pour l'API de films
